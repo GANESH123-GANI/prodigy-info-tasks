@@ -1,26 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stopwatch</title>
-  <link rel="stylesheet" href="styles.css">
-  
-</head>
-<body>
-  <div class="container">
-    <div class="stopwatch">
-      <div id="display" class="stopwatch-display">00:10:34</div>
-      <div class="controls">
-        <button id="startPause" onclick="startPause()">Start</button>
-        <button id="reset" onclick="reset()">Reset</button>
-        <button id="lap" onclick="lap()">Lap</button>
-      </div>
-      <ul id="laps" class="laps-list"></ul>
-    </div>
-  </div>
+<!DOCTYPE html> 
+<html lang="en"> 
+	
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>Design Stopwatch using HTML CSS and JavaScript</title> 
+	<link rel="stylesheet" href="styles.css"> 
+</head> 
 
-  <script src="script.js"></script>
-</body>
+<body> 
+	<div class="container"> 
+		
+			Stop Watch</h1> 
+		<div id="time"> 
+			<span class="digit" id="hr"> 
+				00</span> 
+			<span class="txt">Hr</span> 
+			<span class="digit" id="min"> 
+				00</span> 
+			<span class="txt">Min</span> 
+			<span class="digit" id="sec"> 
+				00</span> 
+			<span class="txt">Sec</span> 
+			<span class="digit" id="count"> 
+				00</span> 
+		</div> 
+		<div id="buttons"> 
+			<button class="btn" id="start"> 
+				Start</button> 
+			<button class="btn" id="stop"> 
+				Stop</button> 
+			<button class="btn" id="reset"> 
+				Reset</button> 
+		</div> 
+	</div> 
+
+	<script src="script.js"></script> 
+</body> 
+	
 </html>
-
