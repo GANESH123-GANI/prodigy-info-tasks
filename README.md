@@ -1,2 +1,2 @@
-# task 1
- task 1
+# prodigy info tasks 
+ This is the internship tasks from the prodigy infotech 
